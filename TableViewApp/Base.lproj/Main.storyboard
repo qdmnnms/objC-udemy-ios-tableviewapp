@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--Landmarks-->
+        <!--Landmarks 2-->
         <scene sceneID="z5f-oB-4Hv">
             <objects>
                 <tableViewController id="JX1-wr-iGi" customClass="TableViewController" sceneMemberID="viewController">
@@ -48,7 +48,7 @@
                             <outlet property="delegate" destination="JX1-wr-iGi" id="49e-JB-T9o"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Landmarks" id="vWx-Cp-ZYZ"/>
+                    <navigationItem key="navigationItem" title="Landmarks 2" id="vWx-Cp-ZYZ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3C-h8-Ne1" userLabel="First Responder" sceneMemberID="firstResponder"/>
