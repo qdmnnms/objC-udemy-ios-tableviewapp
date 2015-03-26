@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		B8A7728D1AB3E4120061DEFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A7728C1AB3E4120061DEFB /* main.m */; };
 		B8A772901AB3E4120061DEFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A7728F1AB3E4120061DEFB /* AppDelegate.m */; };
-		B8A772931AB3E4120061DEFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A772921AB3E4120061DEFB /* ViewController.m */; };
 		B8A772961AB3E4120061DEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A772941AB3E4120061DEFB /* Main.storyboard */; };
 		B8A772981AB3E4120061DEFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A772971AB3E4120061DEFB /* Images.xcassets */; };
 		B8A7729B1AB3E4120061DEFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A772991AB3E4120061DEFB /* LaunchScreen.xib */; };
 		B8A772A71AB3E4120061DEFB /* TableViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A772A61AB3E4120061DEFB /* TableViewAppTests.m */; };
+		B8A772B21AB3E4A30061DEFB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A772B11AB3E4A30061DEFB /* TableViewController.m */; };
+		B8A772BC1AB3EB430061DEFB /* greatwall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B31AB3EB430061DEFB /* greatwall.jpeg */; };
+		B8A772BD1AB3EB430061DEFB /* hollywood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B41AB3EB430061DEFB /* hollywood.jpeg */; };
+		B8A772BE1AB3EB430061DEFB /* esb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B51AB3EB430061DEFB /* esb.jpeg */; };
+		B8A772BF1AB3EB430061DEFB /* bigben.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B61AB3EB430061DEFB /* bigben.jpeg */; };
+		B8A772C01AB3EB430061DEFB /* christ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B71AB3EB430061DEFB /* christ.jpeg */; };
+		B8A772C11AB3EB430061DEFB /* cn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B81AB3EB430061DEFB /* cn.jpeg */; };
+		B8A772C21AB3EB430061DEFB /* eiffel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772B91AB3EB430061DEFB /* eiffel.jpeg */; };
+		B8A772C31AB3EB430061DEFB /* taj.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772BA1AB3EB430061DEFB /* taj.jpeg */; };
+		B8A772C41AB3EB430061DEFB /* stonehenge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B8A772BB1AB3EB430061DEFB /* stonehenge.jpeg */; };
+		B8A772C71AB3ECC60061DEFB /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A772C61AB3ECC60061DEFB /* TableViewCell.m */; };
+		B8A772CA1AB4BF490061DEFB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A772C91AB4BF490061DEFB /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +43,27 @@
 		B8A7728C1AB3E4120061DEFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8A7728E1AB3E4120061DEFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8A7728F1AB3E4120061DEFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8A772911AB3E4120061DEFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8A772921AB3E4120061DEFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B8A772951AB3E4120061DEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8A772971AB3E4120061DEFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8A7729A1AB3E4120061DEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B8A772A01AB3E4120061DEFB /* TableViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A772A51AB3E4120061DEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8A772A61AB3E4120061DEFB /* TableViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAppTests.m; sourceTree = "<group>"; };
+		B8A772B01AB3E4A30061DEFB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		B8A772B11AB3E4A30061DEFB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		B8A772B31AB3EB430061DEFB /* greatwall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greatwall.jpeg; path = ../../../../../../Downloads/greatwall.jpeg; sourceTree = "<group>"; };
+		B8A772B41AB3EB430061DEFB /* hollywood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hollywood.jpeg; path = ../../../../../../Downloads/hollywood.jpeg; sourceTree = "<group>"; };
+		B8A772B51AB3EB430061DEFB /* esb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = esb.jpeg; path = ../../../../../../Downloads/esb.jpeg; sourceTree = "<group>"; };
+		B8A772B61AB3EB430061DEFB /* bigben.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigben.jpeg; path = ../../../../../../Downloads/bigben.jpeg; sourceTree = "<group>"; };
+		B8A772B71AB3EB430061DEFB /* christ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = christ.jpeg; path = ../../../../../../Downloads/christ.jpeg; sourceTree = "<group>"; };
+		B8A772B81AB3EB430061DEFB /* cn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cn.jpeg; path = ../../../../../../Downloads/cn.jpeg; sourceTree = "<group>"; };
+		B8A772B91AB3EB430061DEFB /* eiffel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eiffel.jpeg; path = ../../../../../../Downloads/eiffel.jpeg; sourceTree = "<group>"; };
+		B8A772BA1AB3EB430061DEFB /* taj.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taj.jpeg; path = ../../../../../../Downloads/taj.jpeg; sourceTree = "<group>"; };
+		B8A772BB1AB3EB430061DEFB /* stonehenge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stonehenge.jpeg; path = ../../../../../../Downloads/stonehenge.jpeg; sourceTree = "<group>"; };
+		B8A772C51AB3ECC60061DEFB /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ../TableViewCell.h; sourceTree = "<group>"; };
+		B8A772C61AB3ECC60061DEFB /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ../TableViewCell.m; sourceTree = "<group>"; };
+		B8A772C81AB4BF490061DEFB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B8A772C91AB4BF490061DEFB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +107,13 @@
 			children = (
 				B8A7728E1AB3E4120061DEFB /* AppDelegate.h */,
 				B8A7728F1AB3E4120061DEFB /* AppDelegate.m */,
-				B8A772911AB3E4120061DEFB /* ViewController.h */,
-				B8A772921AB3E4120061DEFB /* ViewController.m */,
+				B8A772C51AB3ECC60061DEFB /* TableViewCell.h */,
+				B8A772C61AB3ECC60061DEFB /* TableViewCell.m */,
+				B8A772B01AB3E4A30061DEFB /* TableViewController.h */,
+				B8A772B11AB3E4A30061DEFB /* TableViewController.m */,
 				B8A772941AB3E4120061DEFB /* Main.storyboard */,
+				B8A772C81AB4BF490061DEFB /* DetailViewController.h */,
+				B8A772C91AB4BF490061DEFB /* DetailViewController.m */,
 				B8A772971AB3E4120061DEFB /* Images.xcassets */,
 				B8A772991AB3E4120061DEFB /* LaunchScreen.xib */,
 				B8A7728A1AB3E4120061DEFB /* Supporting Files */,
@@ -96,6 +124,15 @@
 		B8A7728A1AB3E4120061DEFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8A772B31AB3EB430061DEFB /* greatwall.jpeg */,
+				B8A772B41AB3EB430061DEFB /* hollywood.jpeg */,
+				B8A772B51AB3EB430061DEFB /* esb.jpeg */,
+				B8A772B61AB3EB430061DEFB /* bigben.jpeg */,
+				B8A772B71AB3EB430061DEFB /* christ.jpeg */,
+				B8A772B81AB3EB430061DEFB /* cn.jpeg */,
+				B8A772B91AB3EB430061DEFB /* eiffel.jpeg */,
+				B8A772BA1AB3EB430061DEFB /* taj.jpeg */,
+				B8A772BB1AB3EB430061DEFB /* stonehenge.jpeg */,
 				B8A7728B1AB3E4120061DEFB /* Info.plist */,
 				B8A7728C1AB3E4120061DEFB /* main.m */,
 			);
@@ -168,6 +205,7 @@
 				TargetAttributes = {
 					B8A772861AB3E4110061DEFB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = C87WRZURX8;
 					};
 					B8A7729F1AB3E4120061DEFB = {
 						CreatedOnToolsVersion = 6.2;
@@ -199,8 +237,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A772C31AB3EB430061DEFB /* taj.jpeg in Resources */,
 				B8A772961AB3E4120061DEFB /* Main.storyboard in Resources */,
+				B8A772BF1AB3EB430061DEFB /* bigben.jpeg in Resources */,
+				B8A772C21AB3EB430061DEFB /* eiffel.jpeg in Resources */,
+				B8A772BC1AB3EB430061DEFB /* greatwall.jpeg in Resources */,
+				B8A772C11AB3EB430061DEFB /* cn.jpeg in Resources */,
+				B8A772BE1AB3EB430061DEFB /* esb.jpeg in Resources */,
+				B8A772C41AB3EB430061DEFB /* stonehenge.jpeg in Resources */,
+				B8A772C01AB3EB430061DEFB /* christ.jpeg in Resources */,
 				B8A7729B1AB3E4120061DEFB /* LaunchScreen.xib in Resources */,
+				B8A772BD1AB3EB430061DEFB /* hollywood.jpeg in Resources */,
 				B8A772981AB3E4120061DEFB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A772931AB3E4120061DEFB /* ViewController.m in Sources */,
+				B8A772CA1AB4BF490061DEFB /* DetailViewController.m in Sources */,
 				B8A772901AB3E4120061DEFB /* AppDelegate.m in Sources */,
+				B8A772C71AB3ECC60061DEFB /* TableViewCell.m in Sources */,
+				B8A772B21AB3E4A30061DEFB /* TableViewController.m in Sources */,
 				B8A7728D1AB3E4120061DEFB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +329,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Publicis Groupe S.A.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Publicis Groupe S.A.";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -297,9 +347,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e9d954a3-cb6f-4107-a69d-cca14b82231b";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -321,7 +372,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Publicis Groupe S.A.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Publicis Groupe S.A.";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -332,8 +384,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e9d954a3-cb6f-4107-a69d-cca14b82231b";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -343,9 +396,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Publicis Groupe S.A.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Publicis Groupe S.A.";
 				INFOPLIST_FILE = TableViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Publicis Groupe S.A.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Publicis Groupe S.A.";
 				INFOPLIST_FILE = TableViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +473,7 @@
 				B8A772AC1AB3E4120061DEFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8A772AD1AB3E4120061DEFB /* Build configuration list for PBXNativeTarget "TableViewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +482,7 @@
 				B8A772AF1AB3E4120061DEFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
