@@ -84,7 +84,7 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    if ([[segue identifier] isEqualToString:@"ShowDetais"]) {
+    if ([[segue identifier] isEqualToString:@"ShowDetails"]) {
         DetailViewController *detailView = [segue destinationViewController];
         
         NSIndexPath *myindexpath = [self.tableView indexPathForSelectedRow];

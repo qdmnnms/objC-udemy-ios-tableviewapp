@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _TitleLabel = _DetailModal[0];
-    _DescriptionLabel = _DetailModal[1];
+    _TitleLabel.text = _DetailModal[0];
+    _DescriptionLabel.text = _DetailModal[1];
     _ImageView.image = [UIImage imageNamed:_DetailModal[2]];
     
     self.navigationItem.title = _DetailModal[0];
