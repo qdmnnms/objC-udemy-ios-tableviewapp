@@ -23,6 +23,32 @@
     
     self.navigationItem.title = _DetailModal[0];
     
+    if ([_TitleLabel.text isEqualToString:@"Big Ben"]) {
+        Built.text = @"Built: 1859";
+        Height.text = @"Height: 96m";
+        Type.text = @"Type: Cultural";
+        Visitation.text = @"Visitation: 20 millions per year";
+    }
+    if ([_TitleLabel.text isEqualToString:@"Great Wall"]) {
+        Built.text = @"Built: 206 BC";
+        Height.text = @"Height: 5 to 8m";
+        Type.text = @"Type: Cultural";
+        Visitation.text = @"Visitation: 10 millions per year";
+    }
+    if ([_TitleLabel.text isEqualToString:@"Hollywood"]) {
+        Built.text = @"Built: 1900";
+        Height.text = @"Height: 96m?";
+        Type.text = @"Type: Cultural";
+        Visitation.text = @"Visitation: 5 millions per year";
+    }
+    if ([_TitleLabel.text isEqualToString:@"Empire State Building"]) {
+        Built.text = @"Built: 1920?";
+        Height.text = @"Height: 100m?";
+        Type.text = @"Type: Cultural";
+        Visitation.text = @"Visitation: 30 millions per year";
+    }
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

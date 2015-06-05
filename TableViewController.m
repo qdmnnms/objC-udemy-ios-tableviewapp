@@ -19,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.separatorColor = [UIColor colorWithRed:0/255.0 green:181/255.0 blue:13/255.0 alpha:0.5];
+    
+    UIBarButtonItem *newButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    [[self navigationItem] setBackBarButtonItem:newButton];
+    
    _Title = @[@"Great Wall",
               @"Hollywood",
               @"Empire State Building",
